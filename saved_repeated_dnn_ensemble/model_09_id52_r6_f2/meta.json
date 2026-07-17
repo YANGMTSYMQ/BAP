@@ -1,0 +1,37 @@
+{
+  "model_id": 52,
+  "repeat": 6,
+  "fold": 2,
+  "seed": 42502,
+  "best_epoch": 198,
+  "hyperparameters": {
+    "hidden_layers": [
+      256,
+      128
+    ],
+    "dropout": 0.3,
+    "lr": 0.0012,
+    "l2": 1e-05,
+    "batch_size": 32,
+    "activation": "relu",
+    "batch_norm": false
+  },
+  "cv_val_metrics": {
+    "RMSE": 4.37672617292622,
+    "MAE": 3.003943396635161,
+    "R2": 0.9499384629507347,
+    "Spearman": 0.9709065826951051
+  },
+  "int_ext_metrics": {
+    "RMSE": 5.295624433121761,
+    "MAE": 4.152267777870712,
+    "R2": 0.8227184368750426,
+    "Spearman": 0.9515898055321805
+  },
+  "ext_metrics": {
+    "RMSE": 7.845571608198555,
+    "MAE": 6.226860550339955,
+    "R2": 0.7850486928438667,
+    "Spearman": 0.9070269604445308
+  }
+}
